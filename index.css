@@ -1,0 +1,28 @@
+body{
+    font-family: cursive;
+    background-color: #216397;
+}
+
+h1{
+    text-align: center;
+}
+button{
+    height: 165px;
+    width: 260px;
+    margin-left: 10%;
+    border-radius: 50px;
+    border: solid black 8px;
+    cursor: pointer;
+}
+#box{
+    padding-left:29% ;
+    padding-top: 6%;
+}
+button:active{
+    transform: translateY(4px);
+}
+.add{
+    box-shadow: 7px 7px 10px rgb(165,59,59);
+    transform: translateY(5px);
+    border-width: 10px;
+}
